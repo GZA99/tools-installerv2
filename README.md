@@ -9,7 +9,7 @@ pkg install Bash
 Cara menjalankan tools :>
 git clone https://github.com/GZA99/tools-installerv2
 ls
-cd tools-installer
+cd tools-installerv2
 ls
 chmod +x tools.sh
 bash tools.sh
