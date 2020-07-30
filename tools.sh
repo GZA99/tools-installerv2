@@ -52,7 +52,7 @@ echo -e $g "3. hammer${endc}";
 echo -e "========================="
 echo -e $c "4. admin-finder${endc}";
 echo -e "========================="
-echo -e $r "5. Lazimux${endc}";
+echo -e $r "5. Tool-X${endc}";
 echo -e "========================="
 echo -e $r "6. exit${endc}";
 echo ""
@@ -110,14 +110,14 @@ echo
 
 ;;
 
-# Lazimux
+# Tool-X
 
-5) git clone https://github.com/Gameye98/Lazymux.git
-echo -e "${y} Installer Lazymux..."
-echo -e "${y} cd Lazymux"
-echo -e "${y} python lazymux.py"
-cd Lazymux
-python2 lazymux.py
+5) git clone https://github.com/Rajkumrdusad/Tool-X
+echo -e "${y} Installer Tool-X..."
+echo -e "${y} cd Tool-X"
+echo -e "${y} sh install.aex"
+cd Tool-X
+sh install.aex
 
 ;;
 
