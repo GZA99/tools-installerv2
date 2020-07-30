@@ -17,7 +17,8 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-figlet Tools | lolcat
+clear
+toilet -f big -F gay TOOLS
 
 echo -e $blue"_____________________________________"
 echo -e $g"EMAIL"$w"="$c"ghali.zul.08@gmail.com"
