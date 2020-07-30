@@ -78,7 +78,7 @@ echo -e "${y} cd RED_HAWK"
 echo -e "${y} php RED_HAWK.php"
 cd RED_HAWK
 pkg install PHP -y
-PHP rhawk.php
+php rhawk.php
 
 ;;
 
