@@ -7,7 +7,7 @@ pkg update
 pkg upgrade
 pkg install Bash 
 Cara menjalankan tools :>
-git clone https://github.com/GZA99/tools-installer
+git clone https://github.com/GZA99/tools-installerv2
 ls
 cd tools-installer
 ls
