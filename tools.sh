@@ -18,7 +18,15 @@ cyan='\e[1;36m'
 red='\e[1;31m'
 
 clear
-toilet -f big -F gay TOOLS
+echo -e "☆┌─┐  ─┐☆"
+echo -e $red"　│▒│ /▒/"
+echo -e $g"　│▒│/▒/"
+echo -e $cyan"　│▒ /▒/─┬─┐◯"
+echo -e $w"　│▒│▒|▒│▒│"
+echo -e $red"┌┴─┴─┐-┘─┘"
+echo -e $g"│▒┌──┘▒▒▒│◯"
+echo -e $cyan"└┐▒▒▒▒▒▒┌┘"
+echo -e $w"◯└┐▒▒▒▒┌"
 
 echo -e $blue"_____________________________________"
 echo -e $g"EMAIL"$w"="$c"ghali.zul.08@gmail.com"
