@@ -18,15 +18,7 @@ cyan='\e[1;36m'
 red='\e[1;31m'
 
 clear
-echo -e "☆┌─┐  ─┐☆"
-echo -e $red"　│▒│ /▒/"
-echo -e $g"　│▒│/▒/"
-echo -e $cyan"　│▒ /▒/─┬─┐◯"
-echo -e $w"　│▒│▒|▒│▒│"
-echo -e $red"┌┴─┴─┐-┘─┘"
-echo -e $g"│▒┌──┘▒▒▒│◯"
-echo -e $cyan"└┐▒▒▒▒▒▒┌┘"
-echo -e $w"◯└┐▒▒▒▒┌"
+toilet -f big -F gay TOOLS
 
 echo -e $blue"_____________________________________"
 echo -e $g"EMAIL"$w"="$c"ghali.zul.08@gmail.com"
@@ -63,7 +55,9 @@ echo -e $c "4. admin-finder${endc}";
 echo -e "========================="
 echo -e $r "5. Tool-X${endc}";
 echo -e "========================="
-echo -e $r "6. exit${endc}";
+echo -e $g "6. DarkPremium${endc}";
+echo -e "========================="
+echo -e $r "7. exit${endc}";
 echo ""
 echo -e "╭─GZA99" |lolcat
 read -p "╰─#" pil;
@@ -130,8 +124,18 @@ sh install.aex
 
 ;;
 
+# DarkPremium
 
-6) figlet -c "AUTHOR" | lolcat
+6) pkg install git python2
+pip2 install --upgrade pip
+git clone https://github.com/TheMagizz/DarkPremium
+cd DarkPremium
+pip2 install -r requirements.txt
+python2 DarkFB.py
+
+;;
+
+7) figlet -c "AUTHOR" | lolcat
 sleep 2
 figlet -c "V" | lolcat
 sleep 2
