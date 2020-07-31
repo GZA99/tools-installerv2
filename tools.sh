@@ -16,8 +16,11 @@ enda='\033[0m'
 blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
-
 clear
+echo ""
+  read -p "siapa nama anda :> poi
+sleep 2 
+
 toilet -f big -F gay TOOLS
 echo -e $blue"_____________________________________"
 echo -e $g"EMAIL"$w"="$c"ghali.zul.08@gmail.com"
@@ -32,10 +35,10 @@ trap ctrl_c INT
 ctrl_c() {
 clear
 echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
-echo -e $cyan"[#]> Thanks"
+echo -e $cyan"[#]> Thanks $poi"
 sleep 1
 echo ""
-echo -e $white"[#]> see you gaes :)..."
+echo -e $white"[#]> see you $poi :)..."
 sleep 1
 exit
 }
@@ -43,6 +46,7 @@ exit
 lagi=1
 while [ $lagi -lt 6 ];
 do
+echo -e "selamat mencoba tuan $poi"
 echo ""
 echo -e $b "1. nmap${enda}";
 echo -e "========================="
@@ -80,6 +84,8 @@ echo -e "${y} cd RED_HAWK"
 echo -e "${y} php RED_HAWK.php"
 cd RED_HAWK
 pkg install PHP -y
+echo -e ". Penginstalan selesai tuan $poi"
+sleep 1
 php rhawk.php
 
 ;;
@@ -144,7 +150,7 @@ figlet -c "GZA99" | lolcat
 sleep 1
 echo -e "FOLLOW MY GITHUB = GZA99" | lolcat
 sleep 1
-figlet -c "BYE KAWAN"
+figlet -c "BYE $poi"
 exit
 ;;
 
