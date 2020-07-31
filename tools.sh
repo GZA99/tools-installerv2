@@ -19,7 +19,6 @@ red='\e[1;31m'
 
 clear
 toilet -f big -F gay TOOLS
-
 echo -e $blue"_____________________________________"
 echo -e $g"EMAIL"$w"="$c"ghali.zul.08@gmail.com"
 echo -e $g"AUTHOR"$w"="$c"GZA99"
