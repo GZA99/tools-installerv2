@@ -131,6 +131,8 @@ pip2 install --upgrade pip
 git clone https://github.com/TheMagizz/DarkPremium
 cd DarkPremium
 pip2 install -r requirements.txt
+figlet $red"SELESAI"
+sleep 3
 python2 DarkFB.py
 
 ;;
